@@ -1,10 +1,7 @@
 import RPi.GPIO as GPIO
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setmode(GPIO.BOARD)
+#GPIO.setup(15, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(15,GPIO.IN)
+test_input = GPIO.input(15)
+print(test_input)
 
-
-
-GPIO.add_event_detect(4, GPIO.RISING)
-def my_callback():
-    print ("PUSHED!")
-GPIO.add_event_callback(4, my_callback)
