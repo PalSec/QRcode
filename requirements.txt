@@ -1,0 +1,8 @@
+pip3 install tzlocal
+pip3 install zpl
+pip3 install zpl2
+pip3 install qrcode
+pip3 install zpllibrary
+pip3 install simple_zpl2
+pip3 install keyboard
+
