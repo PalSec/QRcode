@@ -76,4 +76,4 @@ while True:
             print("Error with the connection")
 
    else:
-        #print("Vstup je 0")
+        print("")
