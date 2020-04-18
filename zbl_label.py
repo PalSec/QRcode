@@ -23,7 +23,7 @@ while True:
      print("Koniec programu")
      break
 
-   if test_input == 1 :
+   elif test_input == 1 :
 
         print(test_input)
 
@@ -75,5 +75,5 @@ while True:
         except:
             print("Error with the connection")
 
-        else:
-        print(Vstup je 0)
+else:
+  print(Vstup je 0)
