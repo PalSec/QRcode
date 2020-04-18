@@ -16,9 +16,9 @@ host = "192.168.0.115"
 port = 9100
 
 while True:
- GPIO.setmode(GPIO.BOARD)
- GPIO.setup(15, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
- test_input = GPIO.input(15)
+   GPIO.setmode(GPIO.BOARD)
+   GPIO.setup(15, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+   test_input = GPIO.input(15)
    if keyboard.is_pressed('q'):
      print("Koniec programu")
      break
