@@ -19,11 +19,11 @@ host = "192.168.0.115"
 port = 9100
 
 while True:
-  if keyboard.is_pressed('q'):
+   if keyboard.is_pressed('q'):
      print("Koniec programu")
      break
-  else:
-     if test_input == 1 :
+
+   if test_input == 1 :
 
         print(test_input)
 
@@ -74,6 +74,5 @@ while True:
             mysocket.close () #closing connection
         except:
             print("Error with the connection")
-
-
-print("je stale 0")
+      else:
+        print(Vstup je 0)
