@@ -74,5 +74,6 @@ while True:
             mysocket.close () #closing connection
         except:
             print("Error with the connection")
-      else:
+
+        else:
         print(Vstup je 0)
