@@ -75,5 +75,5 @@ while True:
         except:
             print("Error with the connection")
 
-
-
+   else:
+        continue
