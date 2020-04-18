@@ -15,7 +15,7 @@ mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = "192.168.0.115"
 port = 9100
 
-#while True:
+while True:
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(15, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 test_input = GPIO.input(15)
